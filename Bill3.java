@@ -6,9 +6,9 @@ public class Bill3 {
 		String name2 = args[1];
 		String name3 = args[2];
 		int sum = Integer.parseInt(args[3]); 
-		double pesron = Math.ceil(sum/3.0);
+		double person = Math.ceil(sum/3.0);
 				
-		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + pesron + " shekels each");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + person + " shekels each");
 	    // Replace this comment with the rest of your code   
 	}
 }
