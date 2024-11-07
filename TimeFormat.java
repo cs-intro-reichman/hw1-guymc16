@@ -22,9 +22,13 @@ String AnsM = "";
 		{
 			AmPm = "PM";
 			hours = hours - 12;
-
 		}
 
+		else if (hours == 12)
+		{
+			hours = 12;
+			AmPm = "PM";	
+		}
 		else
 		{
 			AmPm = "AM";
